@@ -8,23 +8,34 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user")
 public class UserEntity {
+
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "userId")
-    private int userId;
+    private String userId;
+    @Column(name="username")
     private String username;
+    @Column(name="password")
     private String password;
+    @Column(name="truename")
     private String truename;
+    @Column(name="sex")
     private String sex;
+    @Column(name="birthday")
     private String birthday;
+    @Column(name="dept")
     private String dept;
+    @Column(name="position")
     private String position;
+    @Column(name="position_desc")
     private String position_desc;
+    @Column(name="mobile")
     private String mobile;
+    @Column(name="email")
     private String email;
+    @Column(name="creator_rname")
     private String creator_rname;
+    @Column(name="createdate")
     private String createdate;
-    private int creator_id;
 
 
     public String getUsername() {
@@ -43,11 +54,11 @@ public class UserEntity {
         this.password = password;
     }
 
-    public int getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
@@ -131,11 +142,4 @@ public class UserEntity {
         this.createdate = createdate;
     }
 
-    public int getCreator_id() {
-        return creator_id;
-    }
-
-    public void setCreator_id(int creator_id) {
-        this.creator_id = creator_id;
-    }
 }

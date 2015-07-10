@@ -1,21 +1,16 @@
 package colin.app.core.dao.common;
 
 import colin.app.common.bean.Page;
-import colin.app.core.pojo.AticleEntity;
-import org.hibernate.Criteria;
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.criterion.DetachedCriteria;
-import org.hibernate.criterion.Order;
-import org.hibernate.criterion.Restrictions;
-import org.hibernate.type.*;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcDaoSupport;
-import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * Created by joker on 14-9-13.
@@ -27,13 +22,22 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      */
 
     public boolean addObjInfo(T t) {
-        try {
-            this.getHibernateTemplate().save(t);
+        //声明增加SQL语句
+        StringBuilder insertSql = new StringBuilder("insert into ");
+        StringBuilder insertSqlVal = new StringBuilder(" values(");
+        //获取实体类的表明
+        insertSql.append(this.getEntityTableName(t)).append(" (");
+        //获取每个字段的对应表字段
+        Map<String, Object> addParamsMap = getEntityParamsGroup(t, 0);
 
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
+        insertSql.append(addParamsMap.get("insertSql").toString()).replace(insertSql.length() - 1, insertSql.length(), ")");
+        insertSqlVal.append(addParamsMap.get(insertSqlVal).toString()).replace(insertSqlVal.length() - 1, insertSqlVal.length(), ")");
+        insertSql.append(insertSqlVal);
+        int result = this.getNamedParameterJdbcTemplate().update(insertSql.toString(), (Map<String, Object>) addParamsMap.get("params"));
+        if (result != 1) {
             return false;
+        } else {
+            return true;
         }
     }
 
@@ -41,26 +45,35 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * 单一数据删除
      */
     public boolean deleteObjInfo(T t) {
-        try {
-            this.getHibernateTemplate().delete(t);
-            this.getHibernateTemplate().flush();
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
+        //删除语句
+        StringBuilder delSql = new StringBuilder("delete from ");
+        delSql.append(this.getEntityTableName(t)).append(" where ");
+        //拼接删除条件
+        Map<String, Object> delParamMap = getEntityParamsGroup(t, 1);
+        delSql.append(delParamMap.get("delSql").toString());
+        delSql.subSequence(0, delSql.lastIndexOf("  and "));
+        int result = this.getNamedParameterJdbcTemplate().update(delSql.toString(), (Map<String, Object>) delParamMap.get("params"));
+        if (result != 1) {
             return false;
+        } else {
+            return true;
         }
     }
+
     /**
-     * 单一数据更新
+     * 单一数据更新,该方法仅支持主键更新
      */
     public boolean updateObjInfo(T t) {
-        try {
-            this.getHibernateTemplate().update(t);
-            this.getHibernateTemplate().flush();
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
+        StringBuilder updateSql = new StringBuilder("update ");
+        updateSql.append(this.getEntityTableName(t)).append(" set ");
+        Map<String, Object> paramsMap = this.getEntityParamsGroup(t, 2);
+
+        updateSql.append(paramsMap.get("updateSql").toString().substring(paramsMap.get("updateSql").toString().length()-1)).append(" where ").append(paramsMap.get("updateSqlCondition"));
+       int result=this.getNamedParameterJdbcTemplate().update(updateSql.toString(), (Map<String, Object>) paramsMap.get("params"));
+        if(result!=1){
             return false;
+        }else{
+            return true;
         }
     }
 
@@ -75,40 +88,9 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * @param count    每页的记录总数 如果为null不分页
      * @return 返回List集合
      */
-    public <E> List<E> getOrderObjects(final Class cl, final Map map,
-                                       final String orderstr, final Integer beginpos, final Integer count) {
+    public abstract <E> List<E> getOrderObjects(final Class cl, final Map map,
+                                                final String orderstr, final Integer beginpos, final Integer count);
 
-        Criteria cri = this.getCurrentSession().createCriteria(cl);
-        if (map != null) {
-            Set keyset = map.keySet();
-            for (Object key : keyset) {
-                if (key == null || map.get(key) == null) {
-                    continue;
-                }
-                // 如果对应的值是字符串类型，我就是用like匹配
-                if (map.get(key).getClass() == String.class) {
-                    cri.add(Restrictions.like(key.toString(), map
-                            .get(key)));
-                } else {
-                    cri.add(Restrictions.eq(key.toString(), map
-                            .get(key)));
-                }
-            }
-        }
-        if (orderstr != null) {
-            cri.addOrder(Order.desc(orderstr));
-        }
-        if (beginpos != null) {
-            cri.setFirstResult(beginpos);
-        } else {
-            cri.setFirstResult(0);
-        }
-        if (count != null) {
-            cri.setMaxResults(count);
-        }
-        return (List<E>) cri.list();
-
-    }
     /**
      * 排序(升序)+分页功能+条件查询
      *
@@ -120,40 +102,8 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * @param count    每页的记录总数 如果为null不分页
      * @return 返回List集合
      */
-    public <E> List<E> getOrderAscObjects(final Class cl, final Map map,
-                                       final String orderstr, final Integer beginpos, final Integer count) {
-
-        Criteria cri = this.getCurrentSession().createCriteria(cl);
-        if (map != null) {
-            Set keyset = map.keySet();
-            for (Object key : keyset) {
-                if (key == null || map.get(key) == null) {
-                    continue;
-                }
-                // 如果对应的值是字符串类型，我就是用like匹配
-                if (map.get(key).getClass() == String.class) {
-                    cri.add(Restrictions.like(key.toString(), map
-                            .get(key)));
-                } else {
-                    cri.add(Restrictions.eq(key.toString(), map
-                            .get(key)));
-                }
-            }
-        }
-        if (orderstr != null) {
-            cri.addOrder(Order.asc(orderstr));
-        }
-        if (beginpos != null) {
-            cri.setFirstResult(beginpos);
-        } else {
-            cri.setFirstResult(0);
-        }
-        if (count != null) {
-            cri.setMaxResults(count);
-        }
-        return (List<E>) cri.list();
-
-    }
+    public abstract <E> List<E> getOrderAscObjects(final Class cl, final Map map,
+                                                   final String orderstr, final Integer beginpos, final Integer count);
 
     /**
      * 分页查询 ，传一个hql语句. 和一个参数数组.
@@ -164,60 +114,9 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * @param count     每页的记录总数
      * @return 返回List集合
      */
-    public List pageQuery(final String hql, final Object[] bindValue,
-                          final Integer first, final Integer count) {
+    public abstract List pageQuery(final String hql, final Object[] bindValue,
+                                   final Integer first, final Integer count);
 
-        Query query = this.getCurrentSession().createQuery(hql);
-
-        if (bindValue != null && bindValue.length >= 1) {
-            Type[] types = typesFactory(bindValue);
-            query.setParameters(bindValue, types);
-        }
-        if (first != null && first.intValue() >= 0) {
-            query.setFirstResult(first);
-            if (count != null && count.intValue() >= 0)
-                query.setMaxResults(count);
-        }
-        List result = query.list();
-        return result;
-
-    }
-
-    /**
-     * 获取对象对应参数的类型
-     *
-     * @param bindValue
-     * @return
-     */
-    private final Type[] typesFactory(Object[] bindValue) {
-        int count = bindValue.length;
-        Type[] types = new Type[count];
-        for (int i = 0; i < count; i++) {
-            if (bindValue[i].getClass().getName().endsWith("String")) {
-                types[i] = new StringType();
-            } else if (bindValue[i].getClass().getName().endsWith("Integer")) {
-                types[i] = new IntegerType();
-            } else if (bindValue[i].getClass().getName().endsWith("Float")) {
-                types[i] = new FloatType();
-            } else if (bindValue[i].getClass().getName().endsWith("Date")) {
-                types[i] = new DateType();
-            }
-        }
-        return types;
-    }
-    /**
-     * 查询某个类的全部对象
-     *
-     * @param <E>
-     * @param c   查询类的class
-     * @return
-     */
-    public <E> List<E> selectAllObject(final Class c) {
-        Criteria cri = this.getCurrentSession().createCriteria(c);
-        List<E> list = cri.list();
-        return list;
-
-    }
 
     /**
      * 根据 主键 查询某个对象
@@ -227,11 +126,7 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * @param id
      * @return
      */
-    public <E> E selectObjectById(final Class c, final Serializable id) {
-        E aa = (E) this.getCurrentSession().get(c, id);
-        return aa;
-
-    }
+    public abstract <E> E selectObjectById(final Class c, final Serializable id);
 
     /**
      * 根据条件,查询一个对象.
@@ -242,12 +137,7 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      *            map.put("username",username);
      * @return
      */
-    public <E> E selectUniqueObject(final Class c, final Map map) {
-        Criteria cri = this.getCurrentSession().createCriteria(c);
-        cri.add(Restrictions.allEq(map));
-        return (E) cri.uniqueResult();
-
-    }
+    public abstract <E> E selectUniqueObject(final Class c, final Map map);
 
     /**
      * 带条件的查询.返回list集合
@@ -257,13 +147,7 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * @param map 根据map里面放置的参数
      * @return 返回一个list对象集合
      */
-    public <E> List<E> seletcObjectByMap(final Class c, final Map map) {
-        Criteria cri = this.getCurrentSession().createCriteria(c);
-        cri.add(Restrictions.allEq(map));
-        List<E> e = cri.list();
-        return e;
-
-    }
+    public abstract <E> List<E> seletcObjectByMap(final Class c, final Map map);
 
     /**
      * 一个泛型方法:支持条件查询,排序,分页查询.
@@ -278,52 +162,11 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
      * @return
      */
     @SuppressWarnings("unchecked")
-    public <E> List<E> selectObjInfoByMapCondtionAndOrderAndPageQuery(
+    public abstract <E> List<E> selectObjInfoByMapCondtionAndOrderAndPageQuery(
             final Class cl, final Map map, final String orderStr,
-            final Integer beginIndex, final Integer count) {
+            final Integer beginIndex, final Integer count);
 
-        // 使用 Criteria查询 代替复杂得hql语句;
-        Criteria cri = this.getCurrentSession().createCriteria(cl);
-        // 对map进行判断
-        if (map != null) {
-            Set keyset = map.keySet();
-            for (Object key : keyset) {
-                // 如果为空则继续遍历
-                if (key == null || map.get(key) == null) {
-                    continue;
-                }
-                // 如果是参数值是字符串则用模糊查询. like 匹配
-                if (map.get(key).getClass() == String.class) {
-                    cri.add(Restrictions.like(key.toString(), map
-                            .get(key)));
-                } else {
-                    cri.add(Restrictions.eq(key.toString(), map
-                            .get(key)));
-                }
-            }
-        }
-        // 对orderStr 进行判断
-        if (orderStr != null) {
-            cri.addOrder(Order.asc(orderStr));// 升序
-        }
-        // 对分页 进行判断
-        if (beginIndex != null && beginIndex.intValue() >= 0) {
-            cri.setFirstResult(beginIndex.intValue());
-            if (count != null && count.intValue() >= 0) {
-                cri.setMaxResults(count.intValue());
-            }
-        }
-        return (List<E>) cri.list();
-    }
-    public <E> boolean existsSearchObj(Class clazz,Map<String,Object> params){
-        boolean result=true;
-        List<E> resultList=this.seletcObjectByMap(clazz,params);
-        if(resultList==null||resultList.isEmpty()){
-            result=false;
-        }
-        return result;
-
-    }
+    public abstract <E> boolean existsSearchObj(Class clazz, Map<String, Object> params);
 
     /**
      * 分页数据查找,初始化，首次调用该方法。此后调用新的的方法
@@ -331,5 +174,116 @@ public abstract class CommonDao<T> extends NamedParameterJdbcDaoSupport {
 
     public abstract Page<T> searchObjPageInfo(Map<String, Object> paramsMap);
 
+    private final String getEntityTableName(T t) {
+        Table table = t.getClass().getAnnotation(Table.class);
+        return table.name();
+    }
 
+    /**
+     * 返回查询语句和其参数Map
+     *
+     * @param t
+     * @param choose 0:增加一个对象，1:删除一个对象，2：修改一个对象,3:查询
+     * @return
+     */
+    private final Map<String, Object> getEntityParamsGroup(T t, int choose) {
+        //获取实体类的Fields
+        Field[] fields = t.getClass().getDeclaredFields();
+        //存放结果对象
+        Map<String, Object> resultMap = new HashMap<>();
+        //参数
+        Map<String, Object> params = new HashMap<String, Object>();
+        //根据条件返回相应的Sql和变量
+        switch (choose) {
+            //插入
+            case 0:
+                //声明存放插入语句的sql
+                StringBuilder insertSql = new StringBuilder(""), insertSqlCondition = new StringBuilder("");
+                //循环遍历fields,获取变量的名和值
+                for (Field field : fields) {
+                    field.setAccessible(true);
+                    try {
+                        if (field.get(t) != null) {
+                            String columnName = field.getAnnotation(Column.class).name();
+                            insertSql.append(columnName + ",");
+                            insertSqlCondition.append(":").append(columnName).append(",");
+                            //存放参数
+                            params.put(columnName, field.get(t));
+                        }
+                    } catch (IllegalAccessException e) {
+                        logger.error("拼接增加语句时出错！");
+                        e.printStackTrace();
+                    }
+                }
+                resultMap.put("insertSql", insertSql.toString());
+                resultMap.put("insertSqlCondition", insertSqlCondition.toString());
+                resultMap.put("params", params);
+                break;
+            //删除
+            case 1:
+                StringBuilder delSql = new StringBuilder("");
+                for (Field field : fields) {
+                    field.setAccessible(true);
+                    try {
+                        if (field.get(t) != null) {
+                            String columnName = field.getAnnotation(Column.class).name();
+                            delSql.append(columnName).append("=:").append(columnName).append(" and ");
+                            params.put(columnName, field.get(t));
+                        }
+                    } catch (IllegalAccessException e) {
+                        logger.error("拼接删除语句时出错！");
+                        e.printStackTrace();
+                    }
+                }
+                resultMap.put("delSql", delSql.toString());
+                resultMap.put("params", params);
+                break;
+            //修改一个对象,根据主键更新
+            case 2:
+                StringBuilder updateSql = new StringBuilder(""), updateSqlCondition = new StringBuilder();
+                for (Field field : fields) {
+                    try {
+                        if (field.get(t) != null) {
+                            String columnName = field.getAnnotation(Column.class).name();
+                            updateSql.append(columnName).append("=:").append(columnName).append(",");
+                            if (field.getAnnotation(Id.class) != null) {
+                                updateSqlCondition.append(columnName).append("=:").append(columnName);
+                            }
+                            params.put(columnName, field.get(t));
+                        }
+                    } catch (IllegalAccessException e) {
+                        logger.error("拼接修改语句时出错！");
+                        e.printStackTrace();
+                    }
+                }
+                resultMap.put("updateSql", updateSql.toString());
+                resultMap.put("updateSqlCondition", updateSqlCondition.toString());
+                resultMap.put("params", params);
+                break;
+            //根据条件查询一个对像，精确查询，非like查询
+            case 3:
+                StringBuilder querySql = new StringBuilder("");
+                for (Field field : fields) {
+                    field.setAccessible(true);
+                    try {
+                        if (field.get(t) != null) {
+                            String columnName = field.getAnnotation(Column.class).name();
+                            querySql.append(columnName).append("=:").append(columnName).append(" and ");
+                            params.put(columnName, field.get(t));
+                        }
+                    } catch (IllegalAccessException e) {
+                        logger.error("拼接删除语句时出错！");
+                        e.printStackTrace();
+                    }
+                }
+                resultMap.put(" querySql", querySql.toString());
+                resultMap.put("params", params);
+                break;
+            default:
+
+                break;
+
+        }
+        return resultMap;
+    }
 }

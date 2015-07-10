@@ -16,4 +16,10 @@ public class SystemManagerController {
         //清除Session
         return "login";
     }
+    @RequestMapping(value = "/test.html")
+    public String testLogin(HttpServletRequest request){
+        String name=request.getParameter("username").toString();
+        System.out.println(name);
+        return "login";
+    }
 }

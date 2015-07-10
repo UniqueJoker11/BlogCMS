@@ -2,16 +2,12 @@ package colin.app.action;
 
 import colin.app.common.ReturnContext;
 import colin.app.service.impl.AccessManageService;
-import org.hibernate.Session;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.util.Map;
 
 /**
  * Created by ASUS on 2015/3/27.

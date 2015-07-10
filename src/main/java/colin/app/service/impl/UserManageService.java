@@ -78,6 +78,7 @@ public class UserManageService implements IUserManageService {
         UserEntity userEntity=new UserEntity();
         userEntity.setUsername(paramsMap.get("username").toString());
         userEntity.setPassword(paramsMap.get("userpw").toString());
+        userEntity.setUserId(UUID.randomUUID().toString());
         boolean result=userManageDao.addObjInfo(userEntity);
         return result;
     }
