@@ -1,0 +1,1996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aaeca675-5758-4c10-87b2-52b50147aa87" name="Default" comment="初始化工程代码">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\.idea\artifacts\BlogCommunity_Web_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\applicationContext-security.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\action\AccessManageAction.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\action\TestAction.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\action\UserManageAction.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\aspect\LoggerAspectManage.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\CommonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\JsonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\ReturnContext.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\bean\AticleBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\bean\AticleDetailInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\bean\Page.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\controller\impl\AticleManageControllerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\controller\impl\SystemManagerController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\controller\impl\UserManageControllerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\AccessManageDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\MasterManageDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\UserManageDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\common\CommonDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\AccessEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\AticleEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\BannerEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\BrowserEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\CommentEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\LoggerEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\MasterEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\MusicEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\RightColumnEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\RightEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\RightRoleEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\SysRoleEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\UserEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\UserRightEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\WhisperEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\impl\AccessManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\impl\UserManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IAccessManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IAticleManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IBannerManagerService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IBrowserManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\ICommentManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\ILoggerManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IMasterManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IUserManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IWhisperManageService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\template\generate\GeneratePojoClass.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\template\vo\PojoFieldVo.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\template\vo\PojoVo.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\dispatcher-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\antlr4-annotations-4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\antlr4-runtime-4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\aspectjweaver-1.8.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\beetl-core-2.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-beanutils-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-codec-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-lang3-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\jackson-annotations-2.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\jackson-core-2.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\jackson-databind-2.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\javax.transaction-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\mysql-connector-java-5.1.29.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\org.abego.treelayout.core-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\slf4j-api-1.7.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-aop-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-beans-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-context-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-context-support-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-core-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-expression-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-jdbc-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-messaging-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-orm-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-oxm-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-test-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-tx-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-web-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-webmvc-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-websocket-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\common\header.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\server_error.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\signin.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\signout.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\signup.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\todo.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\images\photos\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\images\photos\photo4.jpg.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\panel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\photo-viewer.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\remote.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\animate.delay.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-editable.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-override.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-wysihtml5.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\codemirror\codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\codemirror\theme\ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\helvetica.css.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\images\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\images\animated-overlay.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery-jvectormap-1.2.2.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery-ui-1.10.3.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery.datatables.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery.tagsinput.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\lato.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\morris.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\select2.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\style.default.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\toggles.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\weather-icons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.eot~.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\100x120.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\100x125.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\110x110.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\60x60.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\80x60\80x60.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\80x60\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\calendar-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\clear.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\close-white.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_background.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hex.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hsb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hsb_h.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hsb_s.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_indic.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_rgb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_rgb_g.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_rgb_r.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_select.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_submit.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\select2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\droparrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\dropdown-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\icon-search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\is-document.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\is-money.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\is-user.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader1.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader10.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader11.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader12.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader13.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader14.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader15.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader16.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader17.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader18.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader19.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader2.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader20.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader21.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader22.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader23.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader24.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader25.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader26.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader27.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader28.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader29.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader3.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader30.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader4.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader5.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader6.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader7.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader8.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader9.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\locked.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\minus.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\loggeduser.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media-audio.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media-doc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media4.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media5.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media6.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media7.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\photo3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\profile-1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\profilepic1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user4.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user5.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\userprofile.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\plus-white.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\plus.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\btnNext.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\btnPrevious.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\contentPattern.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\loader.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\sprite.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\btnNext.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\btnPrevious.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\loader.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\sprite.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\btnNext.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\btnPrevious.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternBottom.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternLeft.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternRight.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternTop.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\default_thumbnail.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\loader.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\sprite.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\btnNext.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\btnPrevious.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\loader.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\sprite.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\btnNext.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\btnPrevious.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\sprite.png.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\select2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\themeforest.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\uploadfile.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\user.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-editable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-wizard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-wysihtml5.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\charts.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\chosen.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\,CKEDITOR.tools.htmlEncode(e._[" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\,CKEDITOR.tools.htmlEncode(e.id__" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\adapters\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\images\_div style=" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\images\spacer.gif.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\formatting.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\mode\javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\mode\xml.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\custom.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\dropzone.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.categories.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.crosshair.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.spline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.symbol.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\gmaps.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\handlebars-v3.0.3.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-jvectormap-us-aea-en.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-ui-1.10.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.autogrow-textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.datatables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.maskedinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.tagsinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.ui.touch-punch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\modernizr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\moment.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\retina.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\toggles.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\wysihtml5-0.3.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\core\dao\AccessManageDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\core\dao\MasterManageDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\core\dao\UserManageDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\impl\AccessManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\impl\UserManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IAccessManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IAticleManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IBannerManagerService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IBrowserManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\ICommentManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\ILoggerManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IMasterManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IUserManageService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IWhisperManageService.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/AticleManageControllerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/AticleManageControllerImpl.java" />
+    </list>
+    <ignored path="BlogCommunity.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BlogCommunity" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ember.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/ember.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.142857" vertical-offset="778" max-vertical-offset="1482">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="190">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Homework_User_Entity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/core/pojo/Homework_User_Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1045">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scope_settings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ember-data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/js/ember-data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="124573" max-vertical-offset="124944">
+              <caret line="6570" column="0" selection-start-line="6570" selection-start-column="0" selection-end-line="6570" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ember.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/js/ember.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="707373" max-vertical-offset="707655">
+              <caret line="37239" column="5" selection-start-line="37239" selection-start-column="5" selection-end-line="37239" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlebars.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/js/handlebars.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="43025" max-vertical-offset="43396">
+              <caret line="2278" column="0" selection-start-line="2278" selection-start-column="0" selection-end-line="2278" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/js/jquery.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/BannerManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/BrowserManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/AticleManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/CommentManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/LoggerManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/MusicManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/WhisperManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/UserManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/action/UserManageAction.java" />
+        <option value="$PROJECT_DIR$/web/pages/resources/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/template/generate/GeneratePojoClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/action/AccessManageAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/aspect/LoggerAspectManage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/service/impl/UserManageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/pojo/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/common/CommonDao.java" />
+        <option value="$PROJECT_DIR$/web/pages/resources/signin.html" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/todo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/dispatcherRequest-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/pages/server_error.html" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/SystemManagerController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/ManageLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/controller/inter/ManageBaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/action/TestAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/EmberExampleController.java" />
+        <option value="$PROJECT_DIR$/web/resources/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/web/resources/js/handlebars.js" />
+        <option value="$PROJECT_DIR$/web/resources/js/ember.js" />
+        <option value="$PROJECT_DIR$/web/resources/js/ember-data.js" />
+        <option value="$PROJECT_DIR$/web/pages/ember.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/pojo/Homework_User_Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/AccessManageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/colin/app/core/dao/MasterManageDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:\apache-maven-3.3.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev_Intellij_Program\BlogCommunity\web\resources\js" />
+      <recent name="D:\Dev_Intellij_Program\BlogCommunity\web\pages\resources" />
+      <recent name="D:\Dev_Intellij_Program\BlogCommunity\web\resources" />
+      <recent name="D:\Dev_Intellij_Program\BlogCommunity\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev_Intellij_Program\BlogCommunity\web\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.BlogCommunity">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BlogCommunity" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.61" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="HomeworkCommunity:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BlogCommunity" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BlogCommunity" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60527" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HomeworkCommunity:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.BlogCommunity" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaeca675-5758-4c10-87b2-52b50147aa87" name="Default" comment="" />
+      <created>1435712123443</created>
+      <option name="number" value="Default" />
+      <updated>1435712123443</updated>
+      <workItem from="1435712123446" duration="17220000" />
+      <workItem from="1436316876375" duration="5824000" />
+      <workItem from="1436426799125" duration="3987000" />
+      <workItem from="1436489536168" duration="12551000" />
+      <workItem from="1436517126763" duration="2981000" />
+      <workItem from="1436521790997" duration="376000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化工程代码">
+      <created>1436494384514</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1436494384514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42939000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27114803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4729951" sideWeight="0.7477341" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="初始化工程代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化工程代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/colin/app/service/impl/UserManageService.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/colin/app/service/impl/UserManageService.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="insertSqlVal" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/controller/impl/UserManageControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="817">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/aspect/LoggerAspectManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="836">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2642" max-vertical-offset="3249">
+          <caret line="146" column="20" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.04" vertical-offset="103" max-vertical-offset="494">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="10127">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/AbstractSqlParameterSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.36" vertical-offset="81" max-vertical-offset="760">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.36" vertical-offset="157" max-vertical-offset="1482">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2" vertical-offset="2916" max-vertical-offset="4446">
+          <caret line="195" column="15" selection-start-line="195" selection-start-column="15" selection-end-line="195" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35873017" vertical-offset="1996" max-vertical-offset="3154">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35873017" vertical-offset="7164" max-vertical-offset="11324">
+          <caret line="432" column="22" selection-start-line="432" selection-start-column="22" selection-end-line="432" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35873017" vertical-offset="324" max-vertical-offset="1026">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35873017" vertical-offset="8038" max-vertical-offset="13129">
+          <caret line="493" column="17" selection-start-line="493" selection-start-column="17" selection-end-line="493" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/logging/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33144477" vertical-offset="6514" max-vertical-offset="11077">
+          <caret line="389" column="0" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33144477" vertical-offset="23519" max-vertical-offset="31312">
+          <caret line="1295" column="0" selection-start-line="1295" selection-start-column="0" selection-end-line="1295" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33144477" vertical-offset="14228" max-vertical-offset="20520">
+          <caret line="806" column="0" selection-start-line="806" selection-start-column="0" selection-end-line="806" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3567073" vertical-offset="1498" max-vertical-offset="2793">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/flot/jquery.flot.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="370">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8759">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/handlebars-v3.0.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="78109">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/todo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="855">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45084745" vertical-offset="0" max-vertical-offset="1121">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/core/dao/common/CommonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3784" max-vertical-offset="5605">
+          <caret line="205" column="33" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1330">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="285">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0357144" vertical-offset="57" max-vertical-offset="627">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.72" vertical-offset="624" max-vertical-offset="1083">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/controller/impl/SystemManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="513">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/server_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="266">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/action/AccessManageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="779">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/action/UserManageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="2451">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="988">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/controller/impl/ManageLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="418">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="2337">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/action/TestAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="589">
+          <caret line="21" column="45" selection-start-line="16" selection-start-column="5" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/controller/inter/ManageBaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.579661" vertical-offset="285" max-vertical-offset="684">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/controller/impl/EmberExampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="684">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="43025" max-vertical-offset="43396">
+          <caret line="2278" column="0" selection-start-line="2278" selection-start-column="0" selection-end-line="2278" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/ember.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="707373" max-vertical-offset="707655">
+          <caret line="37239" column="5" selection-start-line="37239" selection-start-column="5" selection-end-line="37239" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/ember-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="124573" max-vertical-offset="124944">
+          <caret line="6570" column="0" selection-start-line="6570" selection-start-column="0" selection-end-line="6570" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/ember.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.142857" vertical-offset="778" max-vertical-offset="1482">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/Column.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.424581" vertical-offset="0" max-vertical-offset="665">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/core/pojo/Homework_User_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1045">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>HomeworkCommunity:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HomeworkCommunity</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

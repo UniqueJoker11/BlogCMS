@@ -1,18 +1,13 @@
 package colin.app.controller.impl;
 
-import colin.app.common.ReturnContext;
 import colin.app.common.bean.AticleDetailInfo;
 import colin.app.service.inter.IAticleManageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by joker on 14-10-12.
