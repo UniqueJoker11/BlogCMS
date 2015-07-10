@@ -1,479 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaeca675-5758-4c10-87b2-52b50147aa87" name="Default" comment="初始化工程代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\.idea\artifacts\BlogCommunity_Web_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\applicationContext-security.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\action\AccessManageAction.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\action\TestAction.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\action\UserManageAction.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\aspect\LoggerAspectManage.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\CommonUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\DateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\JsonUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\ReturnContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\bean\AticleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\bean\AticleDetailInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\common\bean\Page.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\controller\impl\AticleManageControllerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\controller\impl\SystemManagerController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\controller\impl\UserManageControllerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\AccessManageDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\MasterManageDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\UserManageDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\dao\common\CommonDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\AccessEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\AticleEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\BannerEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\BrowserEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\CommentEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\LoggerEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\MasterEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\MusicEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\RightColumnEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\RightEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\RightRoleEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\SysRoleEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\UserEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\UserRightEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\core\pojo\WhisperEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\impl\AccessManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\impl\UserManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IAccessManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IAticleManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IBannerManagerService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IBrowserManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\ICommentManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\ILoggerManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IMasterManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IUserManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\app\service\inter\IWhisperManageService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\template\generate\GeneratePojoClass.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\template\vo\PojoFieldVo.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\colin\template\vo\PojoVo.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\classes\log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\antlr4-annotations-4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\antlr4-runtime-4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\aspectjweaver-1.8.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\beetl-core-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-beanutils-1.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-io-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\jackson-annotations-2.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\jackson-core-2.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\jackson-databind-2.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\javax.transaction-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\mysql-connector-java-5.1.29.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\org.abego.treelayout.core-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\slf4j-api-1.7.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-aop-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-beans-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-context-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-context-support-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-core-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-expression-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-jdbc-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-messaging-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-orm-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-oxm-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-test-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-tx-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-web-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-webmvc-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\spring-websocket-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\lib\xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\common\header.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\server_error.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\signin.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\signout.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\signup.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\pages\todo.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\accordion.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\images\photos\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\images\photos\photo4.jpg.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\panel.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\photo-viewer.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\remote.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\ajax\tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\animate.delay.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-editable.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-override.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-timepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap-wysihtml5.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\codemirror\codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\codemirror\theme\ambiance.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\colorpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\dropzone.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\helvetica.css.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\images\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\images\animated-overlay.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery-jvectormap-1.2.2.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery-ui-1.10.3.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery.datatables.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery.gritter.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\jquery.tagsinput.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\lato.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\morris.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\prettyPhoto.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\roboto.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\select2.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\style.default.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\toggles.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\css\weather-icons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bla-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BlaIta-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Bol-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-BolIta-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Hai-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-HaiIta-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Lig-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-LigIta-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-Reg-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\lato\Lato-RegIta-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.eot~.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Black-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BlackItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensed-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldCondensedItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-BoldItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Condensed-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-CondensedItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Italic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-LightItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Medium-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-MediumItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-Thin-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\roboto\Roboto-ThinItalic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\fonts\weathericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\100x120.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\100x125.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\110x110.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\60x60.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\80x60\80x60.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\80x60\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\holder.js\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\calendar-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\clear.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\close-white.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_background.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hex.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hsb_b.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hsb_h.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_hsb_s.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_indic.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_rgb_b.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_rgb_g.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_rgb_r.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\colorpicker_submit.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\colorpicker\select2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\droparrows.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\dropdown-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\icon-search.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\is-document.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\is-money.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\is-user.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader10.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader11.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader12.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader13.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader14.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader15.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader16.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader17.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader18.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader19.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader20.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader21.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader22.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader23.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader24.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader25.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader26.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader27.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader28.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader29.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader3.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader30.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader4.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader5.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader6.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader7.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader8.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loaders\loader9.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\locked.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\minus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\blog4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\loggeduser.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media-audio.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media-doc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media3.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media4.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media5.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media6.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\media7.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\photo3.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\profile-1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\profilepic1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user3.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user4.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\user5.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\photos\userprofile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\plus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\plus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\btnNext.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\btnPrevious.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\contentPattern.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\loader.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_rounded\sprite.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\btnNext.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\btnPrevious.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\loader.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\dark_square\sprite.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\default_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\btnNext.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\btnPrevious.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternBottom.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternLeft.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternRight.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\contentPatternTop.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\default_thumbnail.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\loader.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\facebook\sprite.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\btnNext.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\btnPrevious.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\loader.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_rounded\sprite.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\btnNext.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\btnPrevious.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\light_square\sprite.png.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_next.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\prettyphoto\sprite_y.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\screen.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\select2-spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\select2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\select2x2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\spritemap.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\spritemap@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\themeforest.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\uploadfile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\images\user.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-datetimepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-editable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-timepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-wizard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap-wysihtml5.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\charts.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\chosen.jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\,CKEDITOR.tools.htmlEncode(e._[" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\,CKEDITOR.tools.htmlEncode(e.id__" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\adapters\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\images\_div style=" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\ckeditor\images\spacer.gif.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\formatting.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\mode\javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\codemirror\mode\xml.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\custom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\dropzone.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.categories.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.crosshair.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.spline.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\flot\jquery.flot.symbol.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\gmaps.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\handlebars-v3.0.3.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\holder.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-jvectormap-us-aea-en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-jvectormap-world-mill-en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-migrate-1.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery-ui-1.10.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.autogrow-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.datatables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.gritter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.maskedinput.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.mousewheel.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.sparkline.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.tagsinput.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\moment.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\raphael-2.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\retina.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\toggles.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\out\artifacts\HomeworkCommunity_Web_exploded\resources\js\wysihtml5-0.3.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\core\dao\AccessManageDao.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\core\dao\MasterManageDao.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\core\dao\UserManageDao.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\impl\AccessManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\impl\UserManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IAccessManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IAticleManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IBannerManagerService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IBrowserManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\ICommentManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\ILoggerManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IMasterManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IUserManageService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dev_Intellij_Program\BlogCommunity\src\main\java\colin\app\service\inter\IWhisperManageService.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/AticleManageControllerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/colin/app/controller/impl/AticleManageControllerImpl.java" />
+    <list default="true" id="aaeca675-5758-4c10-87b2-52b50147aa87" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BlogCommunity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -513,33 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="190">
+            <state vertical-scroll-proportion="0.04935065" vertical-offset="0" max-vertical-offset="385">
               <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Homework_User_Entity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/core/pojo/Homework_User_Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1045">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scope_settings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1446,7 +953,7 @@
       <workItem from="1436426799125" duration="3987000" />
       <workItem from="1436489536168" duration="12551000" />
       <workItem from="1436517126763" duration="2981000" />
-      <workItem from="1436521790997" duration="376000" />
+      <workItem from="1436521790997" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="初始化工程代码">
       <created>1436494384514</created>
@@ -1454,11 +961,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436494384514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化工程代码">
+      <created>1436522185254</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1436522185254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42939000" />
+    <option name="totallyTimeSpent" value="43088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1881,14 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/Column.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.424581" vertical-offset="0" max-vertical-offset="665">
@@ -1896,9 +1401,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1974026" vertical-offset="0" max-vertical-offset="385">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/colin/app/core/pojo/Homework_User_Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1045">
+        <state vertical-scroll-proportion="0.2961039" vertical-offset="152" max-vertical-offset="1045">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1906,10 +1419,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.04935065" vertical-offset="0" max-vertical-offset="385">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
           <folding />
         </state>
       </provider>
