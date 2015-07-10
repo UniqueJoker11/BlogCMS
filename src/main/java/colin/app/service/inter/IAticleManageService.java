@@ -1,6 +1,5 @@
 package colin.app.service.inter;
 
-import antlr.actions.cpp.ActionLexerTokenTypes;
 import colin.app.common.bean.AticleDetailInfo;
 import colin.app.core.pojo.AticleEntity;
 

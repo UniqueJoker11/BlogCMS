@@ -1,6 +1,5 @@
 package colin.app.service.inter;
 
-import colin.app.common.bean.Page;
 import colin.app.core.pojo.MasterEntity;
 
 import java.util.Map;
