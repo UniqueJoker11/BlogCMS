@@ -1,0 +1,15 @@
+#userinfo_table th,#userinfo_table td{
+    text-align: center!important;
+}
+.user-role-tree-bottom{
+  width: 20px;
+    height: 20px;
+}
+.user-role-tree-right{
+    width: 20px;
+    height: 20px;
+}
+/*
+#user-role-edit-panel{
+    display: none;
+}*/

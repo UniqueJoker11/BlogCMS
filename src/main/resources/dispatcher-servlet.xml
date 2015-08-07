@@ -6,37 +6,46 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
-        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd"
-       default-autowire="byName" default-lazy-init="true">
-    <mvc:annotation-driven></mvc:annotation-driven>
-    <context:component-scan base-package="colin.app.controller,colin.app.action"></context:component-scan>
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <context:component-scan base-package="colin.app.controller.impl"></context:component-scan>
     <context:component-scan base-package="colin.app.aspect"></context:component-scan>
+    <mvc:annotation-driven></mvc:annotation-driven>
     <aop:aspectj-autoproxy proxy-target-class="true"/>
-<!--配置静态资源-->
-    <mvc:resources mapping="/resources/js/*" location="/resources/js/"></mvc:resources>
-    <mvc:resources mapping="/resources/css/*" location="/resources/css/"></mvc:resources>
-    <mvc:resources mapping="/resources/images/*.png|jpeg|jpg|gif" location="/resources/images/"></mvc:resources>
+     <!--配置静态资源-->
+    <mvc:resources mapping="/resources/js/**" location="/resources/js/"></mvc:resources>
+    <mvc:resources mapping="/pages/admin/js/**" location="/pages/admin/js/"></mvc:resources>
+    <mvc:resources mapping="/pages/admin/css/**" location="/pages/admin/css/"></mvc:resources>
+    <mvc:resources mapping="/pages/admin/images/*" location="/pages/admin/images/"></mvc:resources>
+    <mvc:resources mapping="/resources/css/**" location="/resources/css/"></mvc:resources>
+    <mvc:resources mapping="/resources/images/**" location="/resources/images/"></mvc:resources>
+    <mvc:resources mapping="/resources/images/photos/**" location="/resources/images/photos/"></mvc:resources>
+    <mvc:resources mapping="/resources/fonts/*" location="/resources/fonts/"></mvc:resources>
     <!--据请求URL路径直接转化为逻辑视图名的支持基类-->
-    <bean name="/*.html" class="org.springframework.web.servlet.mvc.UrlFilenameViewController"></bean>
     <bean id="beetlConfig" class="org.beetl.ext.spring.BeetlGroupUtilConfiguration" init-method="init"/>
     <bean id="viewResolver" class="org.beetl.ext.spring.BeetlSpringViewResolver" p:prefix="pages/" p:suffix=".html">
         <property name="contentType" value="text/html;charset=UTF-8"/>
     </bean>
     <!--配置统一的错误处理机制,也可以自己重写这个类，通过集成HandlerExceptionResolverAdapter-->
-    <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+    <!--<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
         <property name="exceptionMappings">
             <props>
                 <prop key="java.lang.Exception">/server_error</prop>
                 <prop key="java.lang.Throwable">server_theread_error</prop>
             </props>
         </property>
+    </bean>-->
+    <!-- control层传递数据格式的配置，暂定为json类型的数据 -->
+    <bean id="jsonConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>application/json;charset=UTF-8</value>
+            </list>
+        </property>
     </bean>
-    <!--处理JSON请求-->
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
         <property name="messageConverters">
             <list>
-                <bean
-                        class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+                <ref bean="jsonConverter" />
             </list>
         </property>
     </bean>

@@ -1,0 +1,113 @@
+<!--引入表格管理工具-->
+<link href="${ctxPath}/resources/css/jquery.datatables.css" rel="stylesheet">
+<link href="${ctxPath}/resources/css/jquery.treetable.theme.default.css" rel="stylesheet">
+<link href="${ctxPath}/pages/admin/css/usermanage.css" rel="stylesheet">
+<script src="${ctxPath}/resources/js/jquery.datatables.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/select2.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/jquery.treetable.js"></script>
+<script type="text/javascript" src="${ctxPath}/pages/admin/js/usermanage.js"></script>
+
+<div class="pageheader">
+    <h2>
+        <i class="fa fa-file-text"></i> 系统管理 <span>用户管理</span>
+    </h2>
+
+    <div class="breadcrumb-wrapper">
+        <span class="label">当前位置:</span>
+        <ol class="breadcrumb">
+            <li><a href="index.html">系统管理</a></li>
+            <li><a href="index.html">用户管理</a></li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-btns">
+                    <a
+                            href=""
+                            class="panel-close">&times;</a> <a
+                        href=""
+                        class="minimize">&minus;</a>
+                </div>
+                <!-- panel-btns -->
+                <h3 class="panel-title">用户信息一览</h3>
+            </div>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table" id="userinfo_table">
+                        <thead>
+                        <tr>
+                            <th>用户名</th>
+                            <th>用户称号</th>
+                            <th>用户邮箱</th>
+                            <th>用户电话</th>
+                            <th>用户登录时间</th>
+                            <th>用户操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <%for(user in userInfo){%>
+                        <%if(userLP.odd){%>
+                        <tr class="odd gradeX">
+                            <%}else{%>
+                        <tr class="even gradeC">
+                            <%}%>
+                            <td>${user.user_name}</td>
+                            <td>${user.user_callname}</td>
+                            <td>${user.user_email}</td>
+                            <td>${user.user_phone}</td>
+                            <td>${user.user_logintime}</td>
+                            <td>
+                                <button class="btn btn-primary" onclick="fetchUserRole('${user.user_id}')">用户角色
+                                </button>
+                                <button class="btn btn-black" onclick="fetchUserAuthority('${user.user_id}')">用户权限</button>
+                                <button class="btn btn-brown" onclick="editUserInfo('${user.user_id}')">修改用户信息
+                                </button>
+                                <button class="btn btn-danger" onclick="deleteUserInfo('${user.user_id}')">删除用户
+                                </button>
+                            </td>
+                        </tr>
+                        <%}%>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- panel -->
+        </div>
+        <!-- col-sm-6 -->
+    </div>
+</div>
+<!--用户的角色编辑-->
+<div id="user-role-dialog" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户角色管理</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="user-role-table" class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>用户角色</th>
+                                <th>角色描述</th>
+                            </tr>
+                            </thead>
+                            <tbody id="user-role-body">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="user-role-change-btn" onclick="editUserRoleTree()" class="btn btn-default">修改角色</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>

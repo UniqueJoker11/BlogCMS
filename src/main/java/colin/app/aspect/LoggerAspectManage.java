@@ -1,14 +1,12 @@
 package colin.app.aspect;
 
 import colin.app.common.DateUtils;
-import colin.app.core.pojo.LoggerEntity;
+import colin.app.core.pojo.Homework_LoggerEntity;
 import org.apache.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.Resource;
 
 /**
  * Created by joker on 15-2-3.
@@ -27,7 +25,7 @@ public class LoggerAspectManage {
         Logger logger = Logger.getLogger(jp.getTarget().getClass());
         logger.info("当前访问的class是"+logger.getClass().getName());
         //存储当前的访问类的内容
-        LoggerEntity loggerEntity = new LoggerEntity();
+        Homework_LoggerEntity loggerEntity = new Homework_LoggerEntity();
         loggerEntity.setCreateTime(DateUtils.getCurrentDate());
         loggerEntity.setAccessClass(jp.getTarget().getClass().getName());
         loggerEntity.setAccessUser("manager");

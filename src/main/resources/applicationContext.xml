@@ -12,13 +12,16 @@
        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
-       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd" default-autowire="byName" default-lazy-init="true">
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
     <!-- 配置扫描包 -->
     <context:annotation-config />
-    <context:component-scan base-package="colin.app.service,colin.app.core.dao"></context:component-scan>
+    <context:component-scan base-package="colin.app.core.dao.*,colin.app.service,colin.app.core.vo"></context:component-scan>
     <context:component-scan base-package="colin.app.aspect"></context:component-scan>
     <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <!--配置当前用户的回话类-->
+    <bean id="chatConfigConnect" class="colin.app.common.ChatConfigConnect"></bean>
     <!-- 数据源配置 -->
+
     <context:property-placeholder file-encoding="utf-8" location="classpath:jdbc.properties"></context:property-placeholder>
 
     <bean id="dataSource"
@@ -28,25 +31,19 @@
         <property name="username" value="${jdbc.username}" />
         <property name="password" value="${jdbc.password}" />
     </bean>
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate" p:dataSource-ref="dataSource"></bean>
     <bean id="parameterJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
         <constructor-arg name="dataSource" ref="dataSource"></constructor-arg>
     </bean>
-    <bean id="jdbcDaoSupport" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcDaoSupport" p:jdbcTemplate-ref="parameterJdbcTemplate">
-    </bean>
     <!-- 开启注解事务 只对当前配置文件有效 -->
-    <!--<bean id="txManager"
-          class="org.springframework.orm.hibernate4.HibernateTransactionManager">
-        <property name="dataSource" ref="dataSource"/>
-        <property name="sessionFactory" ref="sessionFactory"/>
-    </bean>
-    <tx:annotation-driven transaction-manager="txManager"/>
-    <tx:advice id="txAdvice" transaction-manager="txManager">
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager" p:dataSource-ref="dataSource"></bean>
+    <tx:annotation-driven/>
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="add*" propagation="REQUIRED"/>
             <tx:method name="del*" propagation="REQUIRED"/>
             <tx:method name="modify*" propagation="REQUIRED"/>
-            <tx:method name="*" read-only="false"/>
+            <tx:method name="fetch*" propagation="REQUIRED" read-only="true"/>
         </tx:attributes>
-    </tx:advice>-->
-    <!--<import resource="applicationContext-security.xml"></import>-->
+    </tx:advice>
  </beans>
