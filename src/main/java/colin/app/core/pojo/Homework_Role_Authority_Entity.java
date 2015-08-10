@@ -7,17 +7,21 @@ import javax.persistence.Table;
 /**
  * Created by DELL on 2015/7/14.
  */
-@Table(name="homework_role_authority")
+@Table(name = "homework_role_authority")
 public class Homework_Role_Authority_Entity {
     @Id
-    @Column(name = "role_authority_id",nullable = false)
+    @Column(name = "role_authority_id", nullable = false)
     private String role_authority_id;
-    @Column(name = "role_id",nullable = false)
+    @Column(name = "role_id", nullable = false)
     private String role_id;
-    @Column(name = "authority_id",nullable = false)
+    @Column(name = "authority_id", nullable = false)
     private String authority_id;
-    @Column(name = "authority_type",nullable = false)
+    @Column(name = "authority_type", nullable = false)
     private String authority_type;
+    @Column(name = "is_access", nullable = false)
+    private int is_access;
+    @Column(name = "is_authorization", nullable = false)
+    private int is_authorization;
 
     public String getRole_authority_id() {
         return role_authority_id;

@@ -1,10 +1,11 @@
 <!--引入表格管理工具-->
 <link href="${ctxPath}/resources/css/jquery.datatables.css" rel="stylesheet">
-<link href="${ctxPath}/resources/css/jquery.treetable.theme.default.css" rel="stylesheet">
+<link href="${ctxPath}/resources/css/metroStyle/metroStyle.css" rel="stylesheet">
 <link href="${ctxPath}/pages/admin/css/usermanage.css" rel="stylesheet">
 <script src="${ctxPath}/resources/js/jquery.datatables.min.js"></script>
 <script type="text/javascript" src="${ctxPath}/resources/js/select2.min.js"></script>
-<script type="text/javascript" src="${ctxPath}/resources/js/jquery.treetable.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/bootstrap-editable.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/jquery.ztree.all-3.5.min.js"></script>
 <script type="text/javascript" src="${ctxPath}/pages/admin/js/usermanage.js"></script>
 
 <div class="pageheader">
@@ -20,94 +21,105 @@
         </ol>
     </div>
 </div>
-<div class="row">
-    <div class="col-sm-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <div class="panel-btns">
-                    <a
-                            href=""
-                            class="panel-close">&times;</a> <a
-                        href=""
-                        class="minimize">&minus;</a>
+<div class="contentpanel">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-dark">
+                <div class="panel-heading">
+                    <!-- panel-btns -->
+                    <h3 class="panel-title"><span class="fa fa-users"></span>&nbsp;&nbsp;用户列表</h3>
                 </div>
-                <!-- panel-btns -->
-                <h3 class="panel-title">用户信息一览</h3>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <ul id="user-info-list" class="list-group"></ul>
+                    </div>
+                </div>
+                <!-- panel -->
             </div>
-            <div class="panel-body">
-                <div class="table-responsive">
-                    <table class="table" id="userinfo_table">
+            <!-- col-sm-4 -->
+        </div>
+        <div id="user-info-detail" class="col-sm-4">
+            <div class="panel panel-dark">
+                <div class="panel-heading">
+                    <div class="panel-btns">
+                        <a href="" class="panel-edit"><i class="fa fa-edit"></i></a>
+                    </div>
+                    <!-- panel-btns -->
+                    <h3 class="panel-title"><span class="fa fa-building"></span>&nbsp;&nbsp;用户详情</h3>
+                </div>
+                <div class="panel-body"  id="user-info-detail-content">
+                    <div class="row editable-list-item">
+                        <div class="col-sm-5">用户姓名</div>
+                        <div class="col-sm-7"><a id="user-info-username" data-type="text" data-pk="1"
+                                                 class="editable editable-click"></a></div>
+                    </div>
+                    <div class="row editable-list-item">
+                        <div class="col-sm-5">用户别称</div>
+                        <div class="col-sm-7"><a id="user-info-callname" data-type="text" data-pk="2"
+                                                 class="editable editable-click"></a></div>
+                    </div>
+                    <div class="row editable-list-item">
+                        <div class="col-sm-5">用户邮箱</div>
+                        <div class="col-sm-7"><a id="user-info-email" data-type="text" data-pk="3"
+                                                 class="editable editable-click"></a></div>
+                    </div>
+                    <div class="row editable-list-item">
+                        <div class="col-sm-5">用户手机</div>
+                        <div class="col-sm-7"><a id="user-info-phone" data-type="text" data-pk="4"
+                                                 class="editable editable-click"></a></div>
+                    </div>
+                    <div class="row editable-list-item">
+                        <div class="col-sm-5">用户最近登录时间</div>
+                        <div class="col-sm-7"><a id="user-info-logintime" data-type="text" data-pk="5"
+                                                 class="editable editable-click"></a></div>
+                    </div>
+                    <div class="row editable-list-item">
+                        <div class="col-sm-5">用户创建时间</div>
+                        <div class="col-sm-7"><a id="user-info-createtime" data-type="text" data-pk="6"
+                                                 class="editable editable-click"></a></div>
+                    </div>
+
+                </div>
+                <!-- panel-body -->
+            </div>
+        </div>
+        <div id="user-info-controle" class="col-sm-4">
+            <div id="user-info-role" class="panel panel-dark">
+                <div class="panel-heading">
+                    <div class="panel-btns">
+                        <a href="" class="panel-edit"><i class="fa fa-edit"></i></a>
+                    </div>
+                    <!-- panel-btns -->
+                    <h3 class="panel-title"><span class="fa  fa-flag"></span>&nbsp;&nbsp;用户角色</h3>
+                </div>
+                <div class="panel-body">
+                    <ul id="user-info-role-tree" class="ztree">
+
+                    </ul>
+                </div>
+            </div>
+            <div id="user-info-authority" class="panel panel-dark">
+                <div class="panel-heading">
+                    <div class="panel-btns">
+                        <a href="" class="panel-edit"><i class="fa fa-edit"></i></a>
+                    </div>
+                    <!-- panel-btns -->
+                    <h3 class="panel-title"><span class="fa  fa-flag"></span>&nbsp;&nbsp;用户权限</h3>
+                </div>
+                <div class="panel-body">
+                    <table id="user-info-authority-table" class="table">
                         <thead>
                         <tr>
-                            <th>用户名</th>
-                            <th>用户称号</th>
-                            <th>用户邮箱</th>
-                            <th>用户电话</th>
-                            <th>用户登录时间</th>
-                            <th>用户操作</th>
+                            <th>权限名称</th>
+                            <th>权限描述</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <%for(user in userInfo){%>
-                        <%if(userLP.odd){%>
-                        <tr class="odd gradeX">
-                            <%}else{%>
-                        <tr class="even gradeC">
-                            <%}%>
-                            <td>${user.user_name}</td>
-                            <td>${user.user_callname}</td>
-                            <td>${user.user_email}</td>
-                            <td>${user.user_phone}</td>
-                            <td>${user.user_logintime}</td>
-                            <td>
-                                <button class="btn btn-primary" onclick="fetchUserRole('${user.user_id}')">用户角色
-                                </button>
-                                <button class="btn btn-black" onclick="fetchUserAuthority('${user.user_id}')">用户权限</button>
-                                <button class="btn btn-brown" onclick="editUserInfo('${user.user_id}')">修改用户信息
-                                </button>
-                                <button class="btn btn-danger" onclick="deleteUserInfo('${user.user_id}')">删除用户
-                                </button>
-                            </td>
-                        </tr>
-                        <%}%>
+
                         </tbody>
                     </table>
                 </div>
             </div>
-            <!-- panel -->
         </div>
-        <!-- col-sm-6 -->
     </div>
-</div>
-<!--用户的角色编辑-->
-<div id="user-role-dialog" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户角色管理</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-12">
-                        <table id="user-role-table" class="table table-bordered">
-                            <thead>
-                            <tr>
-                                <th>用户角色</th>
-                                <th>角色描述</th>
-                            </tr>
-                            </thead>
-                            <tbody id="user-role-body">
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" id="user-role-change-btn" onclick="editUserRoleTree()" class="btn btn-default">修改角色</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>

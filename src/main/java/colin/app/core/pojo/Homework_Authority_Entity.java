@@ -27,7 +27,7 @@ private String authority_name;
  * 权限描述
 */
 @Column(name ="authoruty_description")
-private int authoruty_description;
+private String authoruty_description;
 
     public String getAuthority_id() {
         return authority_id;
@@ -45,11 +45,11 @@ private int authoruty_description;
         this.authority_name = authority_name;
     }
 
-    public int getAuthoruty_description() {
+    public String getAuthoruty_description() {
         return authoruty_description;
     }
 
-    public void setAuthoruty_description(int authoruty_description) {
+    public void setAuthoruty_description(String authoruty_description) {
         this.authoruty_description = authoruty_description;
     }
 }

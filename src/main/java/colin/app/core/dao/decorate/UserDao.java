@@ -71,4 +71,14 @@ public class UserDao {
         }
         return role_entityList;
     }
+
+    /**
+     * 获取用户的详细信息
+     * @param user_id
+     * @return
+     */
+    public Homework_User_Entity fetchUserDetailInfo(String user_id){
+       return commonDao.searchObjectById(Homework_User_Entity.class,user_id,new DefaultRowMapper<Homework_User_Entity>(Homework_User_Entity.class.getName()));
+    }
+
 }

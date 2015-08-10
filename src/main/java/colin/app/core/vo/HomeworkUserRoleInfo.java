@@ -11,7 +11,7 @@ public class HomeworkUserRoleInfo {
     private String parentRoleId;
     private String name;
     private String roleDescription;
-    private boolean isCurrentUserRole;
+    private boolean checked;
     private List<HomeworkUserRoleInfo> childrenList;
 
 
@@ -39,12 +39,12 @@ public class HomeworkUserRoleInfo {
         this.name = name;
     }
 
-    public boolean isCurrentUserRole() {
-        return isCurrentUserRole;
+    public boolean isChecked() {
+        return checked;
     }
 
-    public void setCurrentUserRole(boolean isCurrentUserRole) {
-        this.isCurrentUserRole = isCurrentUserRole;
+    public void setChecked(boolean checked) {
+        this.checked = checked;
     }
 
     public String getRoleDescription() {

@@ -4,6 +4,8 @@ import colin.app.core.dao.decorate.RoleDao;
 import colin.app.core.dao.decorate.UserDao;
 import colin.app.core.pojo.Homework_Role_Entity;
 import colin.app.core.pojo.Homework_User_Entity;
+import colin.app.core.vo.HomeworkSimpleUserInfo;
+import colin.app.core.vo.HomeworkUserInfo;
 import colin.app.core.vo.HomeworkUserRoleInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,12 +29,22 @@ public class UserServcice {
     private RoleDao roleDao;
 
     /**
-     * 获取用户的请求
+     *获取用户的详细信息
      */
-    public List<Homework_User_Entity> fetchUserInfo(String user_id) {
+    public HomeworkUserInfo fetchUserDetailInfo(String user_id){
         Map<String, Object> searchParams = new HashMap<>();
         searchParams.put("user_id", user_id);
-        return userDao.fetchUserList(searchParams);
+        Homework_User_Entity homework_user_entity=userDao.fetchUserDetailInfo(user_id);
+        return this.transferUserInfo(homework_user_entity);
+    }
+
+    /**
+     * 获取用户的请求
+     */
+    public List<HomeworkSimpleUserInfo> fetchUserInfo(String user_id) {
+        Map<String, Object> searchParams = new HashMap<>();
+        searchParams.put("user_id", user_id);
+        return this.transferUserInfo(userDao.fetchUserList(searchParams));
     }
 
     /**
@@ -70,9 +82,9 @@ public class UserServcice {
             userRoleInfo.setName(role_entity.getRole_name());
             userRoleInfo.setRoleDescription(role_entity.getRole_description());
             if (this.isExistsInUserRoles(role_entity, user_roleList)) {
-                userRoleInfo.setCurrentUserRole(true);
+                userRoleInfo.setChecked(true);
             } else {
-                userRoleInfo.setCurrentUserRole(false);
+                userRoleInfo.setChecked(false);
             }
             if(role_entity.getParent_role_id().equals("0")){
                 userRoleParInfoList.add(userRoleInfo);
@@ -123,5 +135,34 @@ public class UserServcice {
             }
         }
         return nodeList;
+    }
+    private List<HomeworkSimpleUserInfo> transferUserInfo(List<Homework_User_Entity> user_entityList){
+        List<HomeworkSimpleUserInfo> simpleUserInfoList=new ArrayList<>();
+        for(Homework_User_Entity homework_user_entity:user_entityList){
+            HomeworkSimpleUserInfo simpleUserInfo=new HomeworkSimpleUserInfo();
+            simpleUserInfo.setId(homework_user_entity.getUser_id());
+            simpleUserInfo.setName(homework_user_entity.getUser_name());
+            simpleUserInfoList.add(simpleUserInfo);
+        }
+        return simpleUserInfoList;
+    }
+
+    /**
+     * 转换用户信息
+     * @param homework_user_entity
+     * @return
+     */
+    public HomeworkUserInfo transferUserInfo(Homework_User_Entity homework_user_entity){
+        HomeworkUserInfo homeworkUserInfo=new HomeworkUserInfo();
+        homeworkUserInfo.setUser_id(homework_user_entity.getUser_id());
+        homeworkUserInfo.setUser_organize_id(homework_user_entity.getUser_organize_id());
+        homeworkUserInfo.setUser_name(homework_user_entity.getUser_name());
+        homeworkUserInfo.setUser_logintime(homework_user_entity.getUser_logintime());
+        homeworkUserInfo.setUser_callname(homework_user_entity.getUser_callname());
+        homeworkUserInfo.setUser_createtime(homework_user_entity.getUser_createtime());
+        homeworkUserInfo.setUser_email(homework_user_entity.getUser_email());
+        homeworkUserInfo.setUser_password(homework_user_entity.getUser_password());
+        homeworkUserInfo.setUser_phone(homework_user_entity.getUser_phone());
+        return homeworkUserInfo;
     }
 }

@@ -1,0 +1,42 @@
+<!--引入表格管理工具-->
+<link href="${ctxPath}/resources/css/jquery.datatables.css" rel="stylesheet">
+<link href="${ctxPath}/resources/css/metroStyle/metroStyle.css" rel="stylesheet">
+<link href="${ctxPath}/pages/admin/css/rolemanage.css" rel="stylesheet">
+<script src="${ctxPath}/resources/js/jquery.datatables.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/select2.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/bootstrap-editable.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/resources/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="${ctxPath}/pages/admin/js/rolemanage.js"></script>
+
+<div class="pageheader">
+    <h2>
+        <i class="fa fa-file-text"></i> 系统管理 <span>用户管理</span>
+    </h2>
+
+    <div class="breadcrumb-wrapper">
+        <span class="label">当前位置:</span>
+        <ol class="breadcrumb">
+            <li><a href="index.html">系统管理</a></li>
+            <li><a href="index.html">用户管理</a></li>
+        </ol>
+    </div>
+</div>
+<div class="contentpanel">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-dark">
+                <div class="panel-heading">
+                    <!-- panel-btns -->
+                    <h3 class="panel-title"><span class="fa fa-users"></span>&nbsp;&nbsp;角色列表</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <ul id="role-info-list" class="ztree"></ul>
+                    </div>
+                </div>
+                <!-- panel -->
+            </div>
+            <!-- col-sm-4 -->
+        </div>
+    </div>
+</div>
